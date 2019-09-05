@@ -1,0 +1,29 @@
+.tile {
+    display: inline-flex;
+}
+
+.grass {
+    background-color: yellowgreen;
+}
+
+.rock {
+    background-image: url('/tiles/rock.png');
+}
+
+.tree {
+    background-image: url('/tiles/tree.png');
+}
+
+.passable-tree {
+    background-image: url('/tiles/tree.png');
+}
+
+.chest {
+    background-image: url('/tiles/chest.png');
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
